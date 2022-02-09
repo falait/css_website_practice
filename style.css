@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    font-family: 'Poppins';
+}
+
+/* --------------Header Section---------------*/
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackheart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+  .logo {
+      width: 80px;
+      padding: 10px 0px 10px 0px;
+
+  }
+
+  #form {
+      
+      width: 80%;
+      
+  }
+
+  #search {
+      width: 90%;
+      height: 45px;
+      background-color: rgb(228, 228, 228);
+      border: 0px;
+      padding-left: 20px;
+      margin: 10px -5px;
+  }
+  .searchbar button {
+      height: 45px;
+      width: 6%;
+      border: 0px;
+      background-color: rgb(255, 82, 120);
+      color: white;
+      
+  }
+
+  #join {
+    height: 45px;
+    width: 6%;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    
+
+  }
+
+  #login {
+    height: 45px;
+    width: 6%;
+    border: 0px;
+    background-color: white;
+    color: rgb(44, 44, 44);
+    font-size: 15px;
+
+  }
+
+/* --------------Section 1---------------*/
+  
+
+.first-section {
+    background-color: rgb(238, 220, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 650px;
+
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 900;
+    margin: 0 auto;
+}
+
+article {
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.section1-btn {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
+#see-plans {
+    height: 60px;
+    width: 30%;
+    border: 0px;
+    background-color: rgb(211, 50, 50);
+    color: rgb(44, 44, 44);
+    font-size: 10px;
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 2px 4px black;
+  
+    font-size: 120%;
+}
+
+#join-free {
+    height: 60px;
+    width: 30%;
+    border: 0px;
+    background-color: white;
+    color: rgb(44, 44, 44);
+    font-size: 10px;
+    margin-left: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 120%;
+    box-shadow: 2px 4px black;
+}
+
+
+/* --------------Section 2---------------*/
+
+.second-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 650px;
+    
+
+}
+
+.triangle-hexagon {
+    width: 400px;
+    height: 370px; 
+    margin: 15px auto;
+    padding: 20px;
+   
+   
+
+}
+
+h2 {
+    font-size: 200%;
+    font-weight: bolder;
+    margin: 0 auto;
+    background-color: yellow;
+    transform: skew(9deg,0deg);
+}
+
+
+/* --------------Section 3---------------*/
+
+
+
+
+.third-section {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-section img {
+    width: 50px;
+    height: 50px; 
+}
+
+.section3-btn {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.third-section div {
+    padding: 20px;
+}
+
+h3 {
+    color: rgb(255, 82, 120);
+}
+
+#Org {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    color: white;
+    width: 300px;
+    height: 60px;
+    font-size: 120%;
+    box-shadow: 2px 4px grey;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+
+   
+}
